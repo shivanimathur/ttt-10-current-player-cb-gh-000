@@ -10,10 +10,10 @@ end
 
 def current_player()
   if turn_count % 2 == 0
-    current_player = "O"
+    "O"
 
   else
-    current_player = "X"
+    "X"
 
   end
 end
